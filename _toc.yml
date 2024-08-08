@@ -1,0 +1,24 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+- chapters:
+  - file: labs/Lab 0 - Prerequisites
+- caption: Lectures
+  chapters:
+  - file: notebooks/Init2Py_01_Introducing-Python
+  - file: notebooks/Init2Py_02_Variables_Types_Operations
+- caption: Labs
+  chapters:
+  - file: notebooks/Init2Py_03_Chains_of_characters
+  - file: notebooks/Init2Py_04_Iterable_Objects_or_containers
+- caption: Tutorials
+  chapters:
+  - file: notebooks/Init2Py_05_Loops
+  - file: notebooks/Init2Py_06_Functions_and_Modules
+- caption: Practicals
+  chapters:
+  - file: labs/Practial_0_jupyternotebook
+
